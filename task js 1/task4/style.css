@@ -1,0 +1,22 @@
+.tab-title{
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+}
+.tab-title:hover{
+    background-color: rgba(211, 208, 208, 0.3);
+}
+.title-content .active{
+    background-color: rgba(83, 79, 79, 0.3);
+}
+.tab-content{
+    display: none;
+    opacity: 0;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+.tab-content.active{
+    opacity: 1;
+    display: block;
+}
